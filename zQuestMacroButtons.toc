@@ -1,0 +1,31 @@
+## Interface: 50100
+## Title: zQuestMacroButtons
+## Notes: Creates Quest Macro Buttons
+## Author: memnochlv@gmail.com
+## Version 0.69
+
+## DefaultState: enabled
+## LoadOnDemand: 1
+## SavedVariables: zQuestMacroButtonsDB
+## OptionalDeps: Ace3, libAbacus-3.0
+
+## X-Category: Quests
+## X-Embeds: Ace3, LibAbacus-3.0
+
+
+#@no-lib-strip@
+libs\LibStub\LibStub.lua
+libs\CallbackHandler-1.0\CallbackHandler-1.0.lua
+libs\AceAddon-3.0\AceAddon-3.0.xml
+libs\AceHook-3.0\AceHook-3.0.xml
+libs\AceEvent-3.0\AceEvent-3.0.xml
+libs\AceDB-3.0\AceDB-3.0.xml
+libs\AceDBOptions-3.0\AceDBOptions-3.0.xml
+libs\AceGUI-3.0\AceGUI-3.0.xml
+libs\AceConfig-3.0\AceConfig-3.0.xml
+libs\AceConsole-3.0\AceConsole-3.0.xml
+libs\AceTimer-3.0\AceTimer-3.0.xml
+libs\LibAbacus-3.0\lib.xml
+#@end-no-lib-strip@
+
+zQuestMacroButtons.lua
